@@ -1,0 +1,253 @@
+timestamp,num__annual_income,num__debt_to_income_ratio,num__credit_score,num__loan_amount,num__interest_rate,cat__gender_Female,cat__gender_Male,cat__gender_Other,cat__marital_status_Divorced,cat__marital_status_Married,cat__marital_status_Single,cat__marital_status_Widowed,cat__education_level_Bachelor's,cat__education_level_High School,cat__education_level_Master's,cat__education_level_Other,cat__education_level_PhD,cat__employment_status_Employed,cat__employment_status_Retired,cat__employment_status_Self-employed,cat__employment_status_Student,cat__employment_status_Unemployed,cat__loan_purpose_Business,cat__loan_purpose_Car,cat__loan_purpose_Debt consolidation,cat__loan_purpose_Education,cat__loan_purpose_Home,cat__loan_purpose_Medical,cat__loan_purpose_Other,cat__loan_purpose_Vacation,cat__grade_subgrade_A1,cat__grade_subgrade_A2,cat__grade_subgrade_A3,cat__grade_subgrade_A4,cat__grade_subgrade_A5,cat__grade_subgrade_B1,cat__grade_subgrade_B2,cat__grade_subgrade_B3,cat__grade_subgrade_B4,cat__grade_subgrade_B5,cat__grade_subgrade_C1,cat__grade_subgrade_C2,cat__grade_subgrade_C3,cat__grade_subgrade_C4,cat__grade_subgrade_C5,cat__grade_subgrade_D1,cat__grade_subgrade_D2,cat__grade_subgrade_D3,cat__grade_subgrade_D4,cat__grade_subgrade_D5,cat__grade_subgrade_E1,cat__grade_subgrade_E2,cat__grade_subgrade_E3,cat__grade_subgrade_E4,cat__grade_subgrade_E5,cat__grade_subgrade_F1,cat__grade_subgrade_F2,cat__grade_subgrade_F3,cat__grade_subgrade_F4,cat__grade_subgrade_F5,prediction
+2025-12-25 17:17:20,34,2334,12,123456789,1,Female,Single,Bachelor's,Unemployed,Education,12,Will Not Pay Back
+2025-12-25 17:17:21,34,2334,12,123456789,1,Female,Single,Bachelor's,Unemployed,Education,12,Will Not Pay Back
+2025-12-25 17:17:33,John Doe,500000,0.3,720,250000,5.5,Male,Single,Bachelor's,Employed,Home,A1,Will Pay Back
+2025-12-25 17:17:33,Jane Smith,800000,0.25,680,300000,6.0,Female,Married,Master's,Self-Employed,Auto,B2,Will Pay Back
+2025-12-25 17:17:33,Mark Brown,300000,0.4,650,150000,7.0,Male,Divorced,High School,Unemployed,Education,C1,Will Not Pay Back
+2025-12-25 17:17:33,Lisa White,600000,0.2,700,200000,5.0,Female,Single,Bachelor's,Employed,Business,B1,Will Pay Back
+2025-12-25 17:17:33,Paul Green,450000,0.35,710,180000,6.5,Male,Married,Master's,Employed,Other,C2,Will Pay Back
+2025-12-25 17:21:08,700000,0.02,2,10000,2,Male,Married,Master,Unemployed,Personal,c1,Will Not Pay Back
+2025-12-25 17:21:54,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-25 17:21:54,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-25 17:21:54,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-25 17:21:54,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-25 17:21:54,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-25 17:21:54,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-25 17:21:54,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-25 17:21:54,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-25 17:21:54,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-25 17:21:54,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-25 17:29:21,670000,0.01,1,45000,0.05,Male,Married,Master,Unemployed,Business,c1,Will Not Pay Back
+2025-12-25 17:29:35,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-25 17:29:35,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-25 17:29:35,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-25 17:29:35,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-25 17:29:35,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-25 17:29:35,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-25 17:29:35,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-25 17:29:35,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-25 17:29:35,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-25 17:29:35,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-25 17:33:14,53735,0.17,695,23254,10.7,Male,Single,Bachelor's,Employed,Personal,c3,Will Pay Back
+2025-12-25 17:46:05,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-25 17:46:05,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-25 17:46:05,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-25 17:46:05,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-25 17:46:05,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-25 17:46:05,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-25 17:46:05,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-25 17:46:05,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-25 17:46:05,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-25 17:46:05,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-25 17:53:25,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-25 17:53:25,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-25 17:53:25,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-25 17:53:25,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-25 17:53:25,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-25 17:53:25,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-25 17:53:25,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-25 17:53:25,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-25 17:53:25,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-25 17:53:25,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-25 17:53:41,John Doe,500000,0.3,720,250000,5.5,Male,Single,Bachelor's,Employed,Home,A1,Will Pay Back
+2025-12-25 17:53:41,Jane Smith,800000,0.25,680,300000,6.0,Female,Married,Master's,Self-Employed,Auto,B2,Will Pay Back
+2025-12-25 17:53:41,Mark Brown,300000,0.4,650,150000,7.0,Male,Divorced,High School,Unemployed,Education,C1,Will Not Pay Back
+2025-12-25 17:53:41,Lisa White,600000,0.2,700,200000,5.0,Female,Single,Bachelor's,Employed,Business,B1,Will Pay Back
+2025-12-25 17:53:41,Paul Green,450000,0.35,710,180000,6.5,Male,Married,Master's,Employed,Other,C2,Will Pay Back
+2025-12-25 17:54:21,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-25 17:54:21,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-25 17:54:21,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-25 17:54:21,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-25 17:54:21,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-25 17:54:21,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-25 17:54:21,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-25 17:54:21,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-25 17:54:21,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-25 17:54:21,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-26 13:49:00,600000,0.02,16,50000,0.03,Male,Single,Bachelor's,Employed,Business,c1,Will Pay Back
+2025-12-26 14:35:04,400000,2000,345,40000,5,Male,Single,Bachelor's,Employed,Business,c1,Will Not Pay Back
+2025-12-26 14:46:35,80000,40,56,60000,6,Male,Married,Master,Employed,Business,B2,Will Not Pay Back
+2025-12-26 15:01:02,60000,25.5,720,15000,8.5,Male,Married,Bachelor's,Employed,Business,A1,Will Not Pay Back
+2025-12-26 15:04:44,60000,25.5,720,15000,8.5,Male,Married,Bachelor's,Employed,Business,A1,Will Not Pay Back
+2025-12-26 15:04:46,60000,25.5,720,15000,8.5,Male,Married,Bachelor's,Employed,Business,A1,Will Not Pay Back
+2025-12-26 15:34:53,60000,25,720,15000,8,Male,Married,Bachelor,Employed,Business,A1,Will Not Pay Back
+2025-12-26 15:36:03,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-26 15:36:03,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-26 15:36:03,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-26 15:36:03,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-26 15:36:03,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-26 15:36:03,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-26 15:36:03,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-26 15:36:03,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-26 15:36:03,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-26 15:36:03,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-26 15:36:09,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-26 15:36:09,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-26 15:36:09,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-26 15:36:09,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-26 15:36:09,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-26 15:36:09,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-26 15:36:09,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-26 15:36:09,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-26 15:36:09,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-26 15:36:09,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-26 15:36:11,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-26 15:36:11,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-26 15:36:11,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-26 15:36:11,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-26 15:36:11,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-26 15:36:11,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-26 15:36:11,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-26 15:36:11,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-26 15:36:11,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-26 15:36:11,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-26 15:36:11,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-26 15:36:11,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-26 15:36:11,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-26 15:36:11,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-26 15:36:11,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-26 15:36:11,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-26 15:36:11,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-26 15:36:11,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-26 15:36:11,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-26 15:36:11,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-26 15:36:12,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-26 15:36:12,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-26 15:36:12,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-26 15:36:12,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-26 15:36:12,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-26 15:36:12,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-26 15:36:12,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-26 15:36:12,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-26 15:36:12,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-26 15:36:12,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-26 15:43:30,75000,30,750,25000,7.2,Female,Single,Master,Employed,Business,A2,Will Pay Back
+2025-12-26 16:09:40,John Smith,60000,0.25,720,15000,0.07,Male,Single,High School,Unemployed,Home,A1,Will Not Pay Back
+2025-12-26 16:26:38,Jane Doe,75000,0.3,750,25000,0.05,Female,Single,Master's,Employed,Medical,A2,Will Pay Back
+2025-12-26 16:26:38,Jane Doe,75000,0.3,750,25000,0.05,Female,Single,Master's,Employed,Medical,A2,Will Pay Back
+2025-12-26 16:26:59,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,0.8660600251706854,Will Pay Back
+2025-12-26 16:26:59,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,0.9822273164538275,Will Pay Back
+2025-12-26 16:26:59,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,0.2784735653860842,Will Not Pay Back
+2025-12-26 16:26:59,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,0.8836952709255793,Will Pay Back
+2025-12-26 16:26:59,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,0.905464892243235,Will Pay Back
+2025-12-26 16:26:59,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,0.9967858667293504,Will Pay Back
+2025-12-26 16:26:59,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,0.7597640454838294,Will Pay Back
+2025-12-26 16:26:59,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,0.7828307356492431,Will Pay Back
+2025-12-26 16:26:59,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,0.952968217631844,Will Pay Back
+2025-12-26 16:26:59,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,0.9401299740072128,Will Pay Back
+2025-12-26 16:59:04,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,Will Pay Back
+2025-12-26 16:59:04,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,Will Pay Back
+2025-12-26 16:59:04,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,Will Not Pay Back
+2025-12-26 16:59:04,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,Will Pay Back
+2025-12-26 16:59:04,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,Will Pay Back
+2025-12-26 16:59:04,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,Will Pay Back
+2025-12-26 16:59:04,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,Will Pay Back
+2025-12-26 16:59:04,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,Will Pay Back
+2025-12-26 16:59:04,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,Will Pay Back
+2025-12-26 16:59:04,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:04:37,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:04:37,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:04:37,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,Will Not Pay Back
+2025-12-26 17:04:37,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,Will Pay Back
+2025-12-26 17:04:37,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,Will Pay Back
+2025-12-26 17:04:37,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:04:37,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,Will Pay Back
+2025-12-26 17:04:37,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,Will Pay Back
+2025-12-26 17:04:37,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:04:37,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:04:40,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:04:40,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:04:40,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,Will Not Pay Back
+2025-12-26 17:04:40,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,Will Pay Back
+2025-12-26 17:04:40,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,Will Pay Back
+2025-12-26 17:04:40,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:04:40,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,Will Pay Back
+2025-12-26 17:04:40,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,Will Pay Back
+2025-12-26 17:04:40,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:04:40,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:05:58,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:05:58,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:05:58,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,Will Not Pay Back
+2025-12-26 17:05:58,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,Will Pay Back
+2025-12-26 17:05:58,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,Will Pay Back
+2025-12-26 17:05:58,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:05:58,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,Will Pay Back
+2025-12-26 17:05:58,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,Will Pay Back
+2025-12-26 17:05:58,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:05:58,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:05:59,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:05:59,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:05:59,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,Will Not Pay Back
+2025-12-26 17:05:59,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,Will Pay Back
+2025-12-26 17:05:59,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,Will Pay Back
+2025-12-26 17:05:59,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:05:59,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,Will Pay Back
+2025-12-26 17:05:59,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,Will Pay Back
+2025-12-26 17:05:59,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:05:59,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:03,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:06:03,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:03,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,Will Not Pay Back
+2025-12-26 17:06:03,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,Will Pay Back
+2025-12-26 17:06:03,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:03,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:03,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,Will Pay Back
+2025-12-26 17:06:03,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,Will Pay Back
+2025-12-26 17:06:03,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:06:03,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:38,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:06:38,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:38,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,Will Not Pay Back
+2025-12-26 17:06:38,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,Will Pay Back
+2025-12-26 17:06:38,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:38,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:38,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,Will Pay Back
+2025-12-26 17:06:38,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,Will Pay Back
+2025-12-26 17:06:38,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:06:38,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:39,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:06:39,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:39,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,Will Not Pay Back
+2025-12-26 17:06:39,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,Will Pay Back
+2025-12-26 17:06:39,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:39,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:06:39,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,Will Pay Back
+2025-12-26 17:06:39,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,Will Pay Back
+2025-12-26 17:06:39,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:06:39,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:13:10,Torry lane,100000,0.2,500,50000,0.03,Male,Divorced,Master's,Self-employed,Home,C5,Will Pay Back
+2025-12-26 17:14:40,Josiane M,150000,0.3,565,500000,0.05,Female,Married,Bachelor's,Employed,Debt consolidation,B1,Will Not Pay Back
+2025-12-26 17:22:14,John Smith,60000,0.25,720,15000,0.07,Male,Single,High School,Unemployed,Home,A1,Will Not Pay Back,0.9892158810091756,0.0107841189908243,0.9892158810091756,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:22:14,Jane Doe,75000,0.3,750,25000,0.05,Female,Single,Master's,Employed,Medical,A2,Will Pay Back,0.2228788991679763,0.7771211008320237,0.7771211008320237,2025-12-26 17:20:06,Will Pay Back
+2025-12-26 17:22:14,Torry lane,100000,0.3,500,50000,0.05,Female,Married,Bachelor's,Employed,Education,C1,Will Not Pay Back,0.6492004562135629,0.3507995437864371,0.6492004562135629,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:22:15,John Smith,60000,0.25,720,15000,0.07,Male,Single,High School,Unemployed,Home,A1,Will Not Pay Back,0.9892158810091756,0.0107841189908243,0.9892158810091756,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:22:15,Jane Doe,75000,0.3,750,25000,0.05,Female,Single,Master's,Employed,Medical,A2,Will Pay Back,0.2228788991679763,0.7771211008320237,0.7771211008320237,2025-12-26 17:20:06,Will Pay Back
+2025-12-26 17:22:15,Torry lane,100000,0.3,500,50000,0.05,Female,Married,Bachelor's,Employed,Education,C1,Will Not Pay Back,0.6492004562135629,0.3507995437864371,0.6492004562135629,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:22:26,John Smith,60000,0.25,720,15000,0.07,Male,Single,High School,Unemployed,Home,A1,Will Not Pay Back,0.9892158810091756,0.0107841189908243,0.9892158810091756,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:22:26,Jane Doe,75000,0.3,750,25000,0.05,Female,Single,Master's,Employed,Medical,A2,Will Pay Back,0.2228788991679763,0.7771211008320237,0.7771211008320237,2025-12-26 17:20:06,Will Pay Back
+2025-12-26 17:22:26,Torry lane,100000,0.3,500,50000,0.05,Female,Married,Bachelor's,Employed,Education,C1,Will Not Pay Back,0.6492004562135629,0.3507995437864371,0.6492004562135629,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:22:30,John Smith,60000,0.25,720,15000,0.07,Male,Single,High School,Unemployed,Home,A1,Will Not Pay Back,0.9892158810091756,0.0107841189908243,0.9892158810091756,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:22:30,Jane Doe,75000,0.3,750,25000,0.05,Female,Single,Master's,Employed,Medical,A2,Will Pay Back,0.2228788991679763,0.7771211008320237,0.7771211008320237,2025-12-26 17:20:06,Will Pay Back
+2025-12-26 17:22:30,Torry lane,100000,0.3,500,50000,0.05,Female,Married,Bachelor's,Employed,Education,C1,Will Not Pay Back,0.6492004562135629,0.3507995437864371,0.6492004562135629,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:22:33,John Smith,60000,0.25,720,15000,0.07,Male,Single,High School,Unemployed,Home,A1,Will Not Pay Back,0.9892158810091756,0.0107841189908243,0.9892158810091756,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:22:33,Jane Doe,75000,0.3,750,25000,0.05,Female,Single,Master's,Employed,Medical,A2,Will Pay Back,0.2228788991679763,0.7771211008320237,0.7771211008320237,2025-12-26 17:20:06,Will Pay Back
+2025-12-26 17:22:33,Torry lane,100000,0.3,500,50000,0.05,Female,Married,Bachelor's,Employed,Education,C1,Will Not Pay Back,0.6492004562135629,0.3507995437864371,0.6492004562135629,2025-12-26 17:20:06,Will Not Pay Back
+2025-12-26 17:26:43,John Smith,60000,0.25,720,15000,0.07,Male,Single,High School,Unemployed,Home,A1,Will Not Pay Back,0.9892158810091756,0.0107841189908243,0.9892158810091756,2025-12-26 17:25:51,Will Not Pay Back
+2025-12-26 17:26:43,Jane Doe,75000,0.3,750,25000,0.05,Female,Single,Master's,Employed,Medical,A2,Will Pay Back,0.2228788991679763,0.7771211008320237,0.7771211008320237,2025-12-26 17:25:51,Will Pay Back
+2025-12-26 17:26:43,Torry lane,100000,0.3,500,50000,0.05,Female,Married,Bachelor's,Employed,Education,C1,Will Not Pay Back,0.6492004562135629,0.3507995437864371,0.6492004562135629,2025-12-26 17:25:51,Will Not Pay Back
+2025-12-26 17:26:43,Alice Johnson,85000,0.22,710,20000,0.06,Female,Single,Master's,Employed,Medical,B2,Will Pay Back,0.1557000127340718,0.8442999872659281,0.8442999872659281,2025-12-26 17:25:51,Will Pay Back
+2025-12-26 17:26:43,Michael Brown,60000,0.28,680,15000,0.07,Male,Married,Bachelor's,Employed,Car,B1,Will Pay Back,0.4662807744926887,0.5337192255073113,0.5337192255073113,2025-12-26 17:25:51,Will Pay Back
+2025-12-26 17:26:43,Sophia Williams,95000,0.18,730,30000,0.05,Female,Single,PhD,Employed,Home,A2,Will Pay Back,0.069257018426504,0.930742981573496,0.930742981573496,2025-12-26 17:25:51,Will Pay Back
+2025-12-26 17:26:43,David Lee,45000,0.35,640,10000,0.08,Male,Divorced,High School,Self-employed,Debt consolidation,C3,Will Not Pay Back,0.771081922907171,0.2289180770928289,0.771081922907171,2025-12-26 17:25:51,Will Not Pay Back
+2025-12-26 17:26:43,Emma Davis,120000,0.12,750,40000,0.04,Female,Married,Master's,Employed,Medical,A1,Will Pay Back,0.0214831361907585,0.9785168638092414,0.9785168638092414,2025-12-26 17:25:51,Will Pay Back
+2025-12-26 17:27:33,53735.45,0.172,695,23254.21,10.7,Male,Single,Bachelor's,Employed,Debt consolidation,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:27:33,38883.01,0.079,721,7095.54,14.49,Female,Married,Bachelor's,Employed,Home,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:27:33,61396.12,0.082,730,26296.61,12.11,Male,Married,Bachelor's,Unemployed,Business,C4,0.0,0.0,Will Not Pay Back
+2025-12-26 17:27:33,45964.21,0.098,653,23706.04,12.05,Female,Single,Bachelor's,Employed,Debt consolidation,D5,1.0,1.0,Will Pay Back
+2025-12-26 17:27:33,41045.25,0.068,641,18889.71,9.99,Male,Single,Bachelor's,Employed,Medical,D4,1.0,1.0,Will Pay Back
+2025-12-26 17:27:33,47746.38,0.103,674,17888.95,11.2,Male,Married,High School,Retired,Medical,C4,1.0,1.0,Will Pay Back
+2025-12-26 17:27:33,67250.05,0.11,566,18895.02,15.3,Female,Married,Bachelor's,Employed,Debt consolidation,F3,1.0,1.0,Will Pay Back
+2025-12-26 17:27:33,33006.61,0.208,692,751.44,12.28,Male,Divorced,Master's,Employed,Home,C2,1.0,1.0,Will Pay Back
+2025-12-26 17:27:33,49550.24,0.123,675,7758.34,12.05,Female,Married,Bachelor's,Self-employed,Other,C3,1.0,1.0,Will Pay Back
+2025-12-26 17:27:33,30406.68,0.158,699,12557.03,9.94,Male,Single,High School,Employed,Debt consolidation,C4,1.0,1.0,Will Pay Back
+2025-12-26 18:39:00,Alice Johnson,85000,0.22,710,20000,0.06,Female,Single,Master's,Employed,Medical,B2,Will Pay Back

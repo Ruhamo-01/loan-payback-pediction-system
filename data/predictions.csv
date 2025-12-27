@@ -1,0 +1,9 @@
+full_name,annual_income,debt_to_income_ratio,credit_score,loan_amount,interest_rate,gender,marital_status,education_level,employment_status,loan_purpose,grade_subgrade,prediction_label,probability_not_payback,probability_payback,confidence,prediction_timestamp
+John Smith,60000,0.25,720,15000,0.07,Male,Single,High School,Unemployed,Home,A1,Will Not Pay Back,0.9892158810091757,0.010784118990824312,0.9892158810091757,2025-12-26 17:25:51
+Jane Doe,75000,0.3,750,25000,0.05,Female,Single,Master's,Employed,Medical,A2,Will Pay Back,0.22287889916797632,0.7771211008320237,0.7771211008320237,2025-12-26 17:25:51
+Torry lane,100000,0.3,500,50000,0.05,Female,Married,Bachelor's,Employed,Education,C1,Will Not Pay Back,0.6492004562135629,0.35079954378643713,0.6492004562135629,2025-12-26 17:25:51
+Alice Johnson,85000,0.22,710,20000,0.06,Female,Single,Master's,Employed,Medical,B2,Will Pay Back,0.15570001273407186,0.8442999872659281,0.8442999872659281,2025-12-26 17:25:51
+Michael Brown,60000,0.28,680,15000,0.07,Male,Married,Bachelor's,Employed,Car,B1,Will Pay Back,0.4662807744926887,0.5337192255073113,0.5337192255073113,2025-12-26 17:25:51
+Sophia Williams,95000,0.18,730,30000,0.05,Female,Single,PhD,Employed,Home,A2,Will Pay Back,0.069257018426504,0.930742981573496,0.930742981573496,2025-12-26 17:25:51
+David Lee,45000,0.35,640,10000,0.08,Male,Divorced,High School,Self-employed,Debt consolidation,C3,Will Not Pay Back,0.771081922907171,0.2289180770928289,0.771081922907171,2025-12-26 17:25:51
+Emma Davis,120000,0.12,750,40000,0.04,Female,Married,Master's,Employed,Medical,A1,Will Pay Back,0.02148313619075859,0.9785168638092414,0.9785168638092414,2025-12-26 17:25:51

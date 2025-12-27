@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Loan Payback Prediction System</title>
+<style>
+body { font-family: Arial; margin: 20px; background-color: #f7f9fc; color: #333;}
+h1 {text-align:center; color:#2c3e50;}
+h2 {margin-top:30px; color:#34495e; border-bottom:2px solid #2c3e50; padding-bottom:5px;}
+form {background:#fff; padding:20px; border-radius:10px; max-width:600px; margin-bottom:30px;}
+label {display:block; margin-top:10px; font-weight:bold;}
+input, select {width:100%; padding:8px; margin-top:5px; border-radius:5px; border:1px solid #ccc;}
+button {margin-top:15px; padding:10px 20px; background:#2c3e50; color:white; border:none; border-radius:5px; cursor:pointer;}
+button:hover {background:#34495e;}
+#result, #batchResult {margin-top:20px; font-weight:bold;}
+#batchResult table {border-collapse:collapse; width:100%; display:block; overflow-x:auto;}
+#batchResult th, #batchResult td {border:1px solid #ddd; padding:8px; text-align:center; min-width:80px;}
+#batchResult thead {background:#2c3e50; color:white; position:sticky; top:0;}
+#batchResult tbody tr:nth-child(even) {background-color:#f2f2f2;}
+#batchResult tbody tr:hover {background-color:#d1ecf1;}
+@media (max-width:768px){form {width:90%; margin:auto;}}
+</style>
+</head>
+<body>
+
+<h1>Loan Payback Prediction System</h1>
+
+<h2>Single Prediction</h2>
+<form id="singleForm">
+    <label>Full Name: <input type="text" id="full_name" required></label>
+    <label>Annual Income (RWF): <input type="number" id="annual_income" required></label>
+    <label>Debt to Income Ratio (as fraction, e.g., 0.25): <input type="number" step="0.01" id="debt_to_income_ratio" required></label>
+    <label>Credit Score: <input type="number" id="credit_score" required></label>
+    <label>Loan Amount (RWF): <input type="number" id="loan_amount" required></label>
+    <label>Interest Rate (as fraction, e.g., 0.08): <input type="number" step="0.01" id="interest_rate" required></label>
+    <label>Gender:
+        <select id="gender" required>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Other">Other</option>
+        </select>
+    </label>
+    <label>Marital Status:
+        <select id="marital_status" required>
+            <option value="Single">Single</option>
+            <option value="Married">Married</option>
+            <option value="Divorced">Divorced</option>
+        </select>
+    </label>
+    <label>Education Level:
+        <select id="education_level" required>
+            <option value="High School">High School</option>
+            <option value="Bachelor's">Bachelor's</option>
+            <option value="Master's">Master's</option>
+            <option value="PhD">PhD</option>
+        </select>
+    </label>
+    <label>Employment Status:
+        <select id="employment_status" required>
+            <option value="Employed">Employed</option>
+            <option value="Unemployed">Unemployed</option>
+            <option value="Self-employed">Self-employed</option>
+            <option value="Retired">Retired</option>
+        </select>
+    </label>
+    <label>Loan Purpose:
+        <select id="loan_purpose" required>
+            <option value="Debt consolidation">Debt consolidation</option>
+            <option value="Medical">Medical</option>
+            <option value="Education">Education</option>
+            <option value="Car">Car</option>
+            <option value="Home">Home</option>
+            <option value="Other">Other</option>
+            <option value="Vacation">Vacation</option>
+        </select>
+    </label>
+    <label>Grade/Subgrade:
+        <select id="grade_subgrade" required>
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="C1">C1</option>
+            <option value="C2">C2</option>
+            <option value="C3">C3</option>
+            <option value="C4">C4</option>
+            <option value="C5">C5</option>
+            <option value="D1">D1</option>
+            <option value="D2">D2</option>
+            <option value="D3">D3</option>
+            <option value="D4">D4</option>
+            <option value="D5">D5</option>
+            <option value="E5">E5</option>
+            <option value="F1">F1</option>
+            <option value="F5">F5</option>
+        </select>
+    </label>
+    <button type="submit">Predict Loan Payback</button>
+</form>
+
+<div id="result"></div>
+
+<hr>
+
+<h2>Batch Prediction</h2>
+<form id="batchForm">
+    <input type="file" id="batch_file" accept=".csv" required>
+    <button type="submit">Predict Batch</button>
+</form>
+<div id="batchResult"></div>
+
+<script>
+document.getElementById("singleForm").addEventListener("submit", async function(e){
+    e.preventDefault();
+    const data = {
+        full_name: document.getElementById("full_name").value,
+        annual_income: parseFloat(document.getElementById("annual_income").value),
+        debt_to_income_ratio: parseFloat(document.getElementById("debt_to_income_ratio").value),
+        credit_score: parseFloat(document.getElementById("credit_score").value),
+        loan_amount: parseFloat(document.getElementById("loan_amount").value),
+        interest_rate: parseFloat(document.getElementById("interest_rate").value),
+        gender: document.getElementById("gender").value,
+        marital_status: document.getElementById("marital_status").value,
+        education_level: document.getElementById("education_level").value,
+        employment_status: document.getElementById("employment_status").value,
+        loan_purpose: document.getElementById("loan_purpose").value,
+        grade_subgrade: document.getElementById("grade_subgrade").value
+    };
+
+    try {
+        const response = await fetch("/predict", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify(data)
+        });
+        const result = await response.json();
+        if(result.error){
+            document.getElementById("result").innerText = "Error: "+result.error;
+        } else {
+            document.getElementById("result").innerHTML =
+            `Prediction for ${data.full_name}: <strong>${result.prediction}</strong><br>`+
+            `Probability of Paying Back: ${result.prob_payback}%<br>`+
+            `Probability of Not Paying Back: ${result.prob_not_payback}%`;
+        }
+    } catch(err){
+        document.getElementById("result").innerText = "Error: "+err;
+    }
+});
+
+// Batch Prediction
+document.getElementById("batchForm").addEventListener("submit", async function(e){
+    e.preventDefault();
+    const fileInput = document.getElementById("batch_file");
+    if(fileInput.files.length===0){ alert("Please select a CSV file."); return; }
+    const formData = new FormData();
+    formData.append("file", fileInput.files[0]);
+
+    try{
+        const response = await fetch("/predict_batch", {method:"POST", body:formData});
+        const result = await response.json();
+        if(result.error){ document.getElementById("batchResult").innerText="Error: "+result.error; return; }
+
+        let html = `<p>Total Records: ${result.summary.total} | Will Pay Back: ${result.summary.will_pay_back} (${result.summary.percent_pay_back}%) | Will Not Pay Back: ${result.summary.will_not_pay_back} (${result.summary.percent_not_pay_back}%)</p>`;
+        html += `<table><thead><tr>${Object.keys(result.predictions[0]).map(k=>`<th>${k}</th>`).join('')}</tr></thead><tbody>`;
+        result.predictions.forEach(row=>{
+            html += `<tr>${Object.values(row).map(v=>`<td>${v}</td>`).join('')}</tr>`;
+        });
+        html += `</tbody></table>`;
+        document.getElementById("batchResult").innerHTML = html;
+
+    } catch(err){ document.getElementById("batchResult").innerText="Error: "+err; }
+});
+</script>
+
+</body>
+</html>
